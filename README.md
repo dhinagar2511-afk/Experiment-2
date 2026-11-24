@@ -11,7 +11,7 @@ distributions.
 
 ## ALGORITHM
 
-*Brief Algorithm:*
+**Brief Algorithm:**
 
 Use pandas.Series for statistics; numpy.random for sampling.
 
@@ -19,9 +19,9 @@ Use pandas.Series for statistics; numpy.random for sampling.
 
 ## PROGRAM
 
-*Run the following program in a Jupyter Notebook code cell:*
+**Run the following program in a Jupyter Notebook code cell:**
 
-python
+```python
 import numpy as np
 
 import pandas as pd
@@ -44,7 +44,7 @@ sample = np.random.normal(loc=s.mean(), scale=s.std(), size=10)
 
 print("Random sample (10) from normal around mean:", 
 np.round(sample,2))
-
+```
 
 ---
 
@@ -59,14 +59,14 @@ np.round(sample,2))
 
 ## OUTPUT
 
-text
+```text
 Mean: 168.2 
 Median: 169.0 
 Std dev: 7.756 
 Variance: 60.17 
 P(height > 170): 0.4 
 Random sample (10) from normal around mean: [170.3 166.2 173.1 ...]
-
+```
 
 ---
 
